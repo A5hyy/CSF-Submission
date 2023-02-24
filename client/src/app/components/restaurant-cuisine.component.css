@@ -1,0 +1,10 @@
+.restaurant {
+    padding: 5px;
+    margin: 3px;
+    border: 1px rgb(221, 43, 43) solid;
+    border-radius: 8px;
+}
+
+.restaurant:hover{
+    background-color: rgb(230, 78, 78);
+} 

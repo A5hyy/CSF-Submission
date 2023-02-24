@@ -1,0 +1,10 @@
+<p>restaurant-cuisine works!</p>
+
+<h4>
+    <a [routerLink]="['/']">Back</a>
+</h4>
+<div *ngFor="let r of restaurant" class="restaurant"
+[routerLink]="[]">
+    <h4>{{ r.name }}</h4>
+</div>
+

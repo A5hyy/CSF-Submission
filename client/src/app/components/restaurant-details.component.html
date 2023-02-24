@@ -1,0 +1,31 @@
+<p>restaurant-details works!</p>
+
+<!-- <h4>Restaurant: {{name}}</h4>
+<h4>Cuisine: {{cuisine}}</h4>
+<h4>Address: {{address}}</h4> -->
+
+<div>
+    <!-- <form [FormGroup]="form" (ngSubmit)="onSubmit()"> -->
+    <table>
+        <tr>
+            <td>
+                <input type="text" formControlName="name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="number" formControlName="rating">
+                <label for="rating">Rating:</label>
+                <select name="rating" id="rating">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+
+<!-- </form> -->
+</div>
